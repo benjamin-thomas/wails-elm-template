@@ -1,0 +1,7 @@
+{
+  "name": "Wails elm template with auto-reload",
+  "shortname": "wails-elm-template",
+  "author": "",
+  "description": "Wails elm template with auto-reload provided by elm-live",
+  "helpurl": "https://github.com/benjamin-thomas/wails-elm-template"
+}

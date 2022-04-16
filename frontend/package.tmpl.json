@@ -1,0 +1,7 @@
+{
+  "name": "{{.ProjectName}}",
+  "scripts": {
+    "build": "cd ../elm && elm make ./src/Main.elm --output=../frontend/src/elm.js",
+    "dev:watch": "cd ../elm && elm-live ./src/Main.elm --no-server -- --output=../frontend/src/elm.js --debug"
+  }
+,"author":"{{.AuthorName}}"}

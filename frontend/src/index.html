@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>wails-on-elm</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+  <div id="elm"></div>
+
+  <script src="elm.js"></script>
+  <script>
+    (function () {
+
+      const app = Elm.Main.init({ node: document.getElementById("elm") });
+
+      app.ports.sendGreetRequest.subscribe(function (name) {
+        window.go.main.App.Greet(name)
+        .then(result => app.ports.greetReceiver.send(result));
+      });
+
+    })();
+  </script>
+</body>
+
+</html>
