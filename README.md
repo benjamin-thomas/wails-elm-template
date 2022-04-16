@@ -43,6 +43,7 @@ I feel this stack could be a great combo for GUI programming. Elm's promise to e
 
 I evaluated other technologies, here's my list pros and cons while trying to build a hello world app on an old computer:
 
+```
 | Technology               | Pros                                                                                            | Cons                                                                                                         |
 | ------------------------ | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | JavaFX (with modules)    | Easy cross platform development                                                                 | Hard cross platform distribution (tooling is still a little rough)                                           |
@@ -78,7 +79,7 @@ I evaluated other technologies, here's my list pros and cons while trying to bui
 | Wails + Elm              | Fast startup (1s), very fast auto-reload (instant), small binary (4MB), small memory footprint. | v2 of the project is a little early, but the project has been around for many years.                         |
 |                          | The architecture and final output feel much simpler than the other solutions.                   |                                                                                                              |
 | ------------------------ | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-
+```
 
 If you feel I got things wrong, or want to add to this list, don't hesitate to open a PR!
 
