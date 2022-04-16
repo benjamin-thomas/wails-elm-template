@@ -8,7 +8,7 @@ Create GUI apps with Wails + Elm!
 
 - setup a [golang toolchain](https://go.dev/doc/install)
 - setup a [wails toolchain](https://wails.io/docs/next/gettingstarted/installation)
-- install [elm-live](npm install elm-live) globally: `npm install -g elm-live`
+- install [elm-live](https://www.elm-live.com/) globally: `npm install -g elm-live`
 
 ## Create a project
 
